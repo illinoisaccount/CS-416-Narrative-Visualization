@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electoral College Map by Year</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="index.html">Previous</a>
+    <a href="line-chart.html">Next</a>
+    <p>Hover over a state to learn the state's name and the winning party for the election year!</p>
+    <div id="map"></div>
+    <p>
+        Input an election year in the box below.
+        <br> <br>
+        Keep and eye on Michigan, Ohio, Arizona, Pennsylvania, and other swing states.
+        <br> <br>
+        In recent elections, these states have decided the winning president
+    </p>
+    <div>
+        <input type="text" id="yearInput" placeholder="Election Year (e.g., 2020)">
+        <button id="updateButton">Update</button>
+    </div>
+    <script src="scripts/map.js"></script>
+</body>
+
+</html>

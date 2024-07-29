@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#bar-chart, #map, #line-chart {
+    margin: auto;
+    width: auto;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: lightgray;
+    border: 0px;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 1;
+}
+
+button, input {
+    margin: 0px;
+}
+
+a {
+    border: 1px solid blue;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+}
+

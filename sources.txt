@@ -1,0 +1,7 @@
+https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json for map geometry
+
+https://electionlab.mit.edu/data for election data
+
+https://www.youtube.com/watch?v=Qw6uAg3EO64&list=PLgp3NPhJC9MBut9q-YBWQPsWxeU4-Y2pP walkthrough on map
+
+https://www.youtube.com/watch?v=g5bp02-CRAc walkthrough on line chart

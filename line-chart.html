@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Presidential Candidate Votes Over Time</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="map.html">Previous</a>
+    <p>Hover over a data-point to learn more information about an election year!</p>
+    <div id="line-chart"></div>
+    <p>
+        To change states, input a state postal code below.
+        <br> <br>
+        Keep an eye on swing states and notice how the margins for victory are tighter than other predominantly Democrat or Republican states.
+        <br> <br>
+        Also notice that vote counts have been on a steady rise since 1976.
+    </p>
+    <div>
+        <input type="text" id="stateInput" placeholder="Enter state (e.g., IL)">
+        <button id="updateButton">Update</button>
+
+    </div>
+    <script src="scripts/line-chart.js"></script>
+</body>
+
+</html>
